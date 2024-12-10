@@ -17,7 +17,7 @@ const pool = new Pool({
 const BASE_URL = 'http://ighclip.com';
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:5173' })); // Adjust origin as needed
+app.use(cors({ origin: 'https://url-shortener-e8ryl317a-reuben200s-projects.vercel.app/' })); // Adjust origin as needed
 app.use(bodyParser.json());
 
 // Helper function to validate URLs
