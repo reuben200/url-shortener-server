@@ -14,7 +14,7 @@ const pool = new Pool({
   connectionString: process.env.DB_URL,
 });
 
-const BASE_URL = 'http://jclip.com';
+const BASE_URL = 'http://ighclip.com';
 
 // Middleware
 app.use(cors({ origin: 'http://localhost:5173' })); // Adjust origin as needed
