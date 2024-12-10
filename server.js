@@ -14,10 +14,10 @@ const pool = new Pool({
   connectionString: process.env.DB_URL,
 });
 
-const BASE_URL = 'http://ighclip.com';
+const BASE_URL = 'https://url-shortener-server-j9qa.onrender.com';
 
 // Middleware
-app.use(cors({ origin: 'https://url-shortener-e8ryl317a-reuben200s-projects.vercel.app/' })); // Adjust origin as needed
+app.use(cors({ origin: 'https://url-shortener-e8ryl317a-reuben200s-projects.vercel.app' })); // Adjust origin as needed
 app.use(bodyParser.json());
 
 // Helper function to validate URLs
